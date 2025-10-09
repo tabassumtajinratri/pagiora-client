@@ -33,7 +33,7 @@ import { Link } from 'react-router-dom';
 const NavbarInside = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar fixed z-20 bg-gray-800 opacity-50 text-white  shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,7 +54,7 @@ const NavbarInside = () => {
       </ul>
     </div>
     {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
-    <Link to="/">Pagiora</Link>
+    <Link className='text-3xl italic font-bold text-orange-600 p-4 ml-6' to="/">Pagiora</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -63,7 +63,7 @@ const NavbarInside = () => {
         <details>
           <summary>Parent</summary>
           <ul className="p-2">
-            <li><a>Submenu 1</a></li>
+            <li className='text-black'><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
         </details>
