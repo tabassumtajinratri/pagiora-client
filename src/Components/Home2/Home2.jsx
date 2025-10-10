@@ -18,7 +18,7 @@ const Home2 = () => {
              <Coffee></Coffee>
              <Gallery></Gallery>
              <ClientsFeedBack></ClientsFeedBack>
-             <Footer></Footer>
+             {/* <Footer></Footer> */}
         </div>
     );
 };

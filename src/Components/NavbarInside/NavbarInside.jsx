@@ -1,33 +1,4 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
 
-// const NavbarInside = () => {
-//     return (
-//         <div className="navbar fixed z-20 text-white shadow-lg">
-//             <div className="navbar-start">
-               
-//             </div>
-//             <div className="navbar-center hidden lg:flex space-x-4">
-
-//                 <div>
-                    
-//                 </div>
-//                 <Link to="/about" className="btn">Home</Link>
-                
-//                 <Link to="/services" className="btn">Page</Link>
-//                 <Link to="/contact" className="btn">Contact</Link>
-//             </div>
-//             <div className="navbar-end">
-//                 <Link to="/" className="btn bg-red-400 text-black">Back..</Link>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default NavbarInside;
-
-
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavbarInside = () => {
@@ -68,25 +39,32 @@ const NavbarInside = () => {
         <details>
           <summary>Home</summary>
           <ul className="p-2">
-            <li className='text-black'>Book Cafe</li>
-            <li>Submenu 2</li>
+            <Link to='home2'><li className='text-black'>Book Cafe</li></Link>
+            <Link to='cafe'><li className='text-black'> Bookstore</li></Link>
+            <Link to='cafe'><li className='text-black'> Shop </li></Link>
+            <Link to='cafe'><li className='text-black'> Blogs </li></Link>
+          
           </ul>
         </details>
       </li>
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary>Pages</summary>
           <ul className="p-2">
-            <li className='text-black'><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+           <Link to='home2'><li className='text-black'>About Us</li></Link>
+           <Link to='cafe'><li className='text-black'> About Me</li></Link>
+           <Link to='cafe'><li className='text-black'> Cafe Menu </li></Link>
+           <Link to='cafe'><li className='text-black'> MemberShip </li></Link>
+           <Link to='cafe'><li className='text-black'> Our Team </li></Link>
+           <Link to='cafe'><li className='text-black'> Authors </li></Link>
           </ul>
         </details>
       </li>
-      <li><a>Item 3</a></li>
+      <Link to='cafe'><li className='text-white mt-2'> Contact Us </li></Link>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn">SignIn</a>
   </div>
 </div>
         </div>
