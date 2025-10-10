@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1",
+    "name": "Espresso",
+    "description": "A strong, bold coffee made by forcing hot water through finely-ground coffee beans.",
+    "price": 2.99
+  },
+  {
+    "_id": "2",
+    "name": "Cappuccino",
+    "description": "A classic Italian coffee drink made with equal parts espresso, steamed milk, and foam.",
+    "price": 3.99
+  },
+  {
+    "_id": "3",
+    "name": "Latte",
+    "description": "Smooth espresso combined with steamed milk and topped with a light layer of foam.",
+    "price": 4.49
+  },
+  {
+    "_id": "4",
+    "name": "Americano",
+    "description": "Espresso diluted with hot water for a lighter, smooth coffee flavor.",
+    "price": 2.49
+  },
+  {
+    "_id": "5",
+    "name": "Mocha",
+    "description": "A chocolate-flavored coffee drink made with espresso, steamed milk, and cocoa.",
+    "price": 4.99
+  },
+  {
+    "_id": "6",
+    "name": "Chocolate Cake",
+    "description": "Rich and moist chocolate cake topped with creamy chocolate frosting.",
+    "price": 5.99
+  },
+  {
+    "_id": "7",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with a gooey molten chocolate center.",
+    "price": 6.49
+  },
+  {
+    "_id": "8",
+    "name": "Chocolate Cheesecake",
+    "description": "Smooth and creamy cheesecake with a chocolate flavor and chocolate crust.",
+    "price": 6.99
+  }
+]

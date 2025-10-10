@@ -23,7 +23,7 @@ const Bestsellingbooks = () => {
             <h1 className='text-6xl text-center mt-4 text-amber-900 font-bold'>Bestsellingbooks</h1>
            </div>
 
-          <div className='grid grid-cols-5 gap-5 mt-7'>
+          <div className='grid md:grid-cols-5 gap-5 mt-7'>
             {
                 best.map(bestBook=> <BestsellingbooksCard key={bestBook._id} bestBook={bestBook}></BestsellingbooksCard>)
             }

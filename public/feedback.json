@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "1",
+    "name": "Emma Johnson",
+    "description": "Amazing experience! The service was quick, professional, and exceeded all expectations.",
+    "rating": 3
+  },
+  {
+    "_id": "2",
+    "name": "Liam Smith",
+    "description": "Great attention to detail and very responsive to feedback. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "_id": "3",
+    "name": "Olivia Brown",
+    "description": "The project turned out beautifully. Communication was clear and deadlines were met perfectly.",
+    "rating": 3
+  },
+  {
+    "_id": "4",
+    "name": "Noah Davis",
+    "description": "Excellent work ethic and creativity. A true professional who cares about quality.",
+    "rating": 5
+  },
+  {
+    "_id": "5",
+    "name": "Sophia Miller",
+    "description": "Very happy with the final result! The design was elegant and user-friendly.",
+    "rating": 4
+  },
+  {
+    "_id": "6",
+    "name": "Ethan Wilson",
+    "description": "Impressive skills! Delivered the project on time and with exceptional quality.",
+    "rating": 5
+  },
+  {
+    "_id": "7",
+    "name": "Isabella Taylor",
+    "description": "Great collaboration! Listened carefully to my needs and brought my vision to life.",
+    "rating": 3
+  },
+  {
+    "_id": "8",
+    "name": "James Anderson",
+    "description": "Professional and talented. The final outcome was even better than I imagined.",
+    "rating": 5
+  },
+  {
+    "_id": "9",
+    "name": "Ava Thomas",
+    "description": "Loved working together! The whole process was smooth and enjoyable.",
+    "rating": 4.7
+  },
+  {
+    "_id": "10",
+    "name": "Benjamin Jackson",
+    "description": "Quick turnaround and excellent communication. Would definitely hire again.",
+    "rating": 5
+  },
+  {
+    "_id": "11",
+    "name": "Charlotte White",
+    "description": "Brilliant ideas and perfect execution. The project felt very personalized.",
+    "rating": 3
+  },
+  {
+    "_id": "12",
+    "name": "Lucas Harris",
+    "description": "I’m impressed by the creativity and technical expertise shown throughout.",
+    "rating": 5
+  },
+  {
+    "_id": "13",
+    "name": "Amelia Martin",
+    "description": "Fantastic results! Everything was delivered exactly as promised, if not better.",
+    "rating": 5
+  },
+  {
+    "_id": "14",
+    "name": "Mason Thompson",
+    "description": "Very organized and responsive. Great communication from start to finish.",
+    "rating": 3
+  },
+  {
+    "_id": "15",
+    "name": "Mia Garcia",
+    "description": "A pleasure to work with! Brought fresh ideas and a professional touch.",
+    "rating": 3
+  },
+  {
+    "_id": "16",
+    "name": "Elijah Martinez",
+    "description": "Exceeded my expectations in every aspect. Truly top-notch service.",
+    "rating": 5
+  },
+  {
+    "_id": "17",
+    "name": "Harper Robinson",
+    "description": "Beautiful design and smooth functionality. Worth every penny!",
+    "rating": 3
+  },
+  {
+    "_id": "18",
+    "name": "Logan Clark",
+    "description": "Very professional approach and high-quality work. Highly satisfied!",
+    "rating": 5
+  },
+  {
+    "_id": "19",
+    "name": "Ella Rodriguez",
+    "description": "Incredible attention to detail and a great sense of aesthetics.",
+    "rating": 5
+  },
+  {
+    "_id": "20",
+    "name": "Alexander Lewis",
+    "description": "Excellent communication, great design sense, and a perfect end product.",
+    "rating": 3
+  }
+]
