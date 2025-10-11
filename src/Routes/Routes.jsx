@@ -5,7 +5,7 @@ import Layouts from "../Components/Layout/Layouts";
 import Home from "../Components/Home/Home";
 import Home2 from "../Components/Home2/Home2";
 import Cafe from "../Components/Cafe/Cafe";
-
+import Shop from "../Components/Shop/Shop";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -16,12 +16,16 @@ export const router = createBrowserRouter([
             element: <Home></Home>
         },
          {
-            path: '/home2',
+            path: '/bookCafe',
             element: <Home2></Home2>
         },
         {
-            path: '/cafe',
+            path: '/bookstore',
             element: <Cafe></Cafe>
+        },
+        {
+          path: '/shop',
+          element: <Shop></Shop>
         }
     ]
   },

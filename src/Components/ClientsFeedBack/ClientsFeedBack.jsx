@@ -19,7 +19,7 @@ const ClientsFeedBack = () => {
     return (
         <div>
          <div className="mt-10">
-               <h1 className="text-6xl text-center italic">Client’s feedback</h1>
+               <h1 className="text-6xl text-amber-800 text-center italic">Client’s feedback</h1>
 
                <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                

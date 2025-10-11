@@ -39,9 +39,9 @@ const NavbarInside = () => {
         <details>
           <summary>Home</summary>
           <ul className="p-2">
-            <Link to='home2'><li className='text-black'>Book Cafe</li></Link>
-            <Link to='cafe'><li className='text-black'> Bookstore</li></Link>
-            <Link to='cafe'><li className='text-black'> Shop </li></Link>
+            <Link to='bookCafe'><li className='text-black'>Book Cafe</li></Link>
+            <Link to='bookstore'><li className='text-black'> Bookstore</li></Link>
+            <Link to='shop'><li className='text-black'> Shop </li></Link>
             <Link to='cafe'><li className='text-black'> Blogs </li></Link>
           
           </ul>

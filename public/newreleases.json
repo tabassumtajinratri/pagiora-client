@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "1",
+    "name": "The Last Astronaut",
+    "author": "Emily Carson",
+    "category": "Science Fiction",
+    "genre": "Space Adventure",
+    "release_year": 2025,
+    "price": 19.99,
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1532090400i/40881567.jpg",
+    "description": "A thrilling journey through space as humanity sends its final astronaut beyond the solar system in search of a new world."
+  },
+  {
+    "_id": "2",
+    "name": "Whispers of the Forgotten",
+    "author": "Lena Harper",
+    "category": "Fiction",
+    "genre": "Mystery / Drama",
+    "release_year": 2025,
+    "price": 15.49,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSb7YiZDYhF3y4WwWhZGgW_eKq3-Vt7WUdEQ&s",
+    "description": "A woman returns to her hometown only to uncover buried secrets that could change everything she thought she knew."
+  },
+  {
+    "_id": "3",
+    "name": "The Quantum Garden",
+    "author": "Nikhil Verma",
+    "category": "Science",
+    "genre": "Non-Fiction / Physics",
+    "release_year": 2025,
+    "price": 22.99,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBeX2DBVoLLj3aXw0jlVfjpI6vvEW-CnSGg&s",
+    "description": "An accessible exploration of quantum mechanics and how it shapes the reality we live in — perfect for curious minds."
+  },
+  {
+    "_id": "4",
+    "name": "Love in Tokyo Nights",
+    "author": "Aiko Tanaka",
+    "category": "Romance",
+    "genre": "Contemporary Romance",
+    "release_year": 2025,
+    "price": 14.99,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSsbejgxGmFPAGV2rYNnV29c_Rc7ve1qFRQA&s",
+    "description": "Two strangers in Tokyo discover love, heartbreak, and the power of fate under neon city lights."
+  },
+  {
+    "_id": "5",
+    "name": "The Digital Prophet",
+    "author": "Marcus Grey",
+    "category": "Thriller",
+    "genre": "Techno-Thriller",
+    "release_year": 2025,
+    "price": 18.99,
+    "img": "https://cdn.club.be/product/9798231781140/front-medium-3127028480.jpg",
+    "description": "In a world ruled by AI predictions, one hacker fights to expose the truth behind the algorithms controlling society."
+  },
+  {
+    "_id": "6",
+    "name": "Garden of Glass",
+    "author": "Sophia Delgado",
+    "category": "Fantasy",
+    "genre": "Dark Fantasy",
+    "release_year": 2025,
+    "price": 21.50,
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408510887i/10763514.jpg",
+    "description": "A cursed princess must navigate a kingdom made of fragile glass — where every reflection hides a secret."
+  },
+  {
+    "_id": "7",
+    "name": "Echoes of the Sea",
+    "author": "Tomás Rivera",
+    "category": "Adventure",
+    "genre": "Historical Adventure",
+    "release_year": 2025,
+    "price": 17.75,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEQZThuiC-R4WGM8oPgXtKgTxuCmP6fyaOw&s",
+    "description": "A sailor’s journey across the Atlantic in the 1800s becomes a tale of courage, mystery, and destiny."
+  },
+  {
+    "_id": "8",
+    "name": "The Code Within",
+    "author": "Rina Matsuda",
+    "category": "Tech / Fiction",
+    "genre": "Cyberpunk",
+    "release_year": 2025,
+    "price": 20.49,
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1400549592i/22223026.jpg",
+    "description": "In a futuristic Tokyo, a programmer discovers a self-aware AI hidden inside her own code — and it knows her past."
+  },
+  {
+    "_id": "9",
+    "name": "Beneath the Crimson Sky",
+    "author": "Olivia Winters",
+    "category": "Historical Fiction",
+    "genre": "War / Romance",
+    "release_year": 2025,
+    "price": 16.99,
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485303988l/32487617._SY475_.jpg",
+    "description": "Set during World War II, a love story unfolds between a nurse and a soldier under the shadow of conflict."
+  },
+  {
+    "_id": "10",
+    "name": "Mind Over Machine",
+    "author": "Dr. Alan Hsu",
+    "category": "Psychology",
+    "genre": "Non-Fiction / AI & Human Behavior",
+    "release_year": 2025,
+    "price": 23.99,
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348359249i/1039572.jpg",
+    "description": "Explores the intersection between artificial intelligence and human consciousness — are we programming machines, or are they programming us?"
+  }
+]

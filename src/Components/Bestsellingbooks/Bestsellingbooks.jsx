@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import BestsellingbooksCard from '../BestsellingbooksCard/BestsellingbooksCard';
+import useBooks from '../Hooks/useBooks';
+
 
 const Bestsellingbooks = () => {
-    const [best, setBest]= useState([])
+    const [allbooks]= useBooks()
+    const bestseller = allbooks.filter(item => item.popularity ==='Best Seller')
 
-    useEffect(()=>{
-        fetch('books.json')
-        .then(res=>res.json())
-        .then(data => {
-            const bestseller = data.filter(item => item.popularity ==='Best Seller')
-            setBest(bestseller)})
+   
+
+    // useEffect(()=>{
+    //    fetch('http://localhost:5000/bookcollection')
+    //     .then(res=>res.json())
+    //     .then(data => {
+    //         const bestseller = data.filter(item => item.popularity ==='Best Seller')
+    //         setBest(bestseller)})
         
 
-    },[])
+    // },[])
 
 
     
@@ -25,7 +30,7 @@ const Bestsellingbooks = () => {
 
           <div className='grid md:grid-cols-5 gap-5 mt-7'>
             {
-                best.map(bestBook=> <BestsellingbooksCard key={bestBook._id} bestBook={bestBook}></BestsellingbooksCard>)
+                bestseller.map(bestBook=> <BestsellingbooksCard key={bestBook._id} bestBook={bestBook}></BestsellingbooksCard>)
             }
           </div>
 
@@ -37,3 +42,6 @@ const Bestsellingbooks = () => {
 };
 
 export default Bestsellingbooks;
+
+
+

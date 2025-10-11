@@ -17,7 +17,7 @@ const Navbar = () => {
    
   </div>
   <div className="navbar-end">
-    <Link to='/home2' className="btn bg-blue-400  text-black">Lets Explore</Link>
+    <Link to='/bookCafe' className="btn bg-blue-400  text-black">Lets Explore</Link>
   </div>
 </div>
     );
