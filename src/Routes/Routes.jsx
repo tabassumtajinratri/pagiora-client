@@ -6,6 +6,7 @@ import Home from "../Components/Home/Home";
 import Home2 from "../Components/Home2/Home2";
 import Cafe from "../Components/Cafe/Cafe";
 import Shop from "../Components/Shop/Shop";
+import SignIn from "../Components/SignIn/SignIn";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +27,12 @@ export const router = createBrowserRouter([
         {
           path: '/shop',
           element: <Shop></Shop>
+        },
+         {
+          path: '/signIn',
+          element: <SignIn></SignIn>
         }
+
     ]
   },
 ]);

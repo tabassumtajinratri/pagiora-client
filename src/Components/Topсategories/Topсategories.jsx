@@ -27,7 +27,7 @@ const TopCategories = () => {
       <div className="flex flex-wrap justify-center gap-6 mb-10">
         {categoryCounts.map((item, index) => (
           <div key={index} className="flex flex-col items-center">
-            <div className="bg-blue-500 text-white rounded-full p-5 text-2xl">
+            <div className="bg-gray-600 text-white rounded-full p-5 text-2xl">
               <FaBookOpen />
             </div>
             <p className="mt-2 font-semibold">{item.category}</p>

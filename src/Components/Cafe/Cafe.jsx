@@ -19,6 +19,7 @@ const Cafe = () => {
             <Newreleases></Newreleases>
             <Join></Join>
             
+            
          
            
         </div>

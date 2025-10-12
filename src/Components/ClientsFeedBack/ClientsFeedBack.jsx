@@ -12,7 +12,7 @@ import { Rating } from '@smastrom/react-rating';
 const ClientsFeedBack = () => {
     const [reviews, setReviews] = useState([])
     useEffect(()=>{
-        fetch('feedback.json')
+        fetch('http://localhost:5000/feedbackCollection')
         .then(res=> res.json())
         .then(data => setReviews(data))
     }, [])

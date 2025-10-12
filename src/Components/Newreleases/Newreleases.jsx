@@ -4,7 +4,7 @@ import NewBooksCard from '../NewBooksCard/NewBooksCard';
 const Newreleases = () => {
     const [newbook, setNewbook] = useState([])
     useEffect(()=>{
-        fetch('newreleases.json')
+        fetch('http://localhost:5000/NewreleasesCollection')
         .then(res=>res.json())
         .then(data =>setNewbook(data))
     }, [])

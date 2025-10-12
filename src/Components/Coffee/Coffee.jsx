@@ -5,7 +5,7 @@ import c2 from '../../assets/c2.jpg'
 const Coffee = () => {
      const [coffees, setCoffees]= useState([])
     useEffect(()=>{
-        fetch('coffee.json')
+        fetch('http://localhost:5000/coffeeCardCollection')
         .then(res => res.json())
         .then(data=>setCoffees(data))
 

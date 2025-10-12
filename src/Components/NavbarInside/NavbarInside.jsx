@@ -64,7 +64,8 @@ const NavbarInside = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">SignIn</a>
+    
+    <Link to='/signIn'><button className="btn">SignIn</button></Link>
   </div>
 </div>
         </div>
