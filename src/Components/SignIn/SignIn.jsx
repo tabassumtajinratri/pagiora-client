@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from '../Providers/AuthProviders';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
+
+  const {signIn} = useContext(AuthContext)
+
+
+
     const handleLogIn = event =>{
         event.preventDefault()
         const form = event.target;
         const email = form.email.value
         const password = form.password.value
         console.log(email, password)
+        signIn(email, password)
+        .then(result =>{
+          const user = result.user
+          console.log(user)
+        })
     }
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-zinc-950">
@@ -51,9 +63,9 @@ const SignIn = () => {
               If you don&apos;t already have an account click the button below to
               create your account.
             </p>
-            <button className="mb-2 inline-flex h-10 w-full items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-sm font-medium uppercase text-white hover:bg-zinc-700">
+            <Link to='/signup' className="mb-2 inline-flex h-10 w-full items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-sm font-medium uppercase text-white hover:bg-zinc-700">
               Create Account
-            </button>
+            </Link>
             <p className="my-4 text-center">OR</p>
             <button className="mb-2 flex h-10 w-full items-center justify-center gap-1 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white">
               <svg

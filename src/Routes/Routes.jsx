@@ -8,6 +8,7 @@ import Cafe from "../Components/Cafe/Cafe";
 import Shop from "../Components/Shop/Shop";
 import SignIn from "../Components/SignIn/SignIn";
 import Blogs from "../Components/Blogs/Blogs";
+import SignUp from "../Components/SignUp/SignUp";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
         {
           path:'/blogs',
           element: <Blogs></Blogs>
+        },
+          {
+          path:'/signup',
+          element: <SignUp></SignUp>
         }
 
 
