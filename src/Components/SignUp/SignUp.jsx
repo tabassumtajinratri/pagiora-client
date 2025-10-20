@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { AuthContext } from '../Providers/AuthProviders';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const SignUp = () => {
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const {createUser} = useContext(AuthContext)
+  const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
+  const {createUser, updateUserProfile} = useContext(AuthContext)
+  const navigate = useNavigate()
 
   const onSubmit = (data) => {
     console.log(data);
@@ -13,6 +15,24 @@ const SignUp = () => {
     .then(result=>{
         const loggUser = result.user
         console.log(loggUser)
+        updateUserProfile(data.name, data.photoUrl)
+        .then(()=>{
+          console.log('User profile info updated')
+          reset()
+          Swal.fire({
+  position: "top-end",
+  icon: "success",
+  title: "User Created Successfully",
+  showConfirmButton: false,
+  timer: 1500
+});
+
+navigate('/')
+
+        })
+        .catch(error =>console.log(error))
+
+        
     })
   };
 
@@ -40,6 +60,28 @@ const SignUp = () => {
             />
             {errors.name && <p className="text-red-500 text-xs">{errors.name.message}</p>}
           </div>
+
+
+
+          {/* //photo */}
+
+          <div className="space-y-2 text-sm">
+            <label htmlFor="name" className="text-sm font-medium leading-none text-zinc-700 dark:text-zinc-300">
+              PhotoURL
+            </label>
+            <input
+              id="photoUrl"
+              type="text"
+              placeholder="Photo URL"
+              className="flex h-10 w-full rounded-md border px-3 py-2 focus-visible:outline-none dark:border-zinc-700"
+              {...register("photoUrl", { required: "photoUrl is required" })}
+            />
+            {errors.photoUrl && <p className="text-red-500 text-xs">{errors.photoUrl.message}</p>}
+          </div>
+
+
+
+
 
           <div className="space-y-2 text-sm">
             <label htmlFor="email" className="text-sm font-medium leading-none text-zinc-700 dark:text-zinc-300">

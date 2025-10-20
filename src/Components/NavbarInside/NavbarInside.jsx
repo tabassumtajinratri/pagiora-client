@@ -1,4 +1,4 @@
-
+import { FaShoppingCart } from "react-icons/fa";
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../Providers/AuthProviders';
@@ -78,7 +78,17 @@ const NavbarInside = () => {
     
     
     {
-      user? <><button onClick={handleLogOut} className='btn btn-ghost'>Logout</button></>
+
+
+      user? <>
+
+      {/* <span>{user?.displayName}</span> */}
+
+      <button className="btn"> <FaShoppingCart />
+   <div className="badge badge-sm badge-secondary">+0</div>
+</button>
+      
+      <button onClick={handleLogOut} className='btn btn-ghost'>Logout</button></>
       :<><Link to='/signIn'><button className="btn">SignIn</button></Link></>
     }
   </div>

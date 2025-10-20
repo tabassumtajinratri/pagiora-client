@@ -9,6 +9,7 @@ import Shop from "../Components/Shop/Shop";
 import SignIn from "../Components/SignIn/SignIn";
 import Blogs from "../Components/Blogs/Blogs";
 import SignUp from "../Components/SignUp/SignUp";
+import Privateroute from "../Components/Privateroute/Privateroute";
 export const router = createBrowserRouter([
   {
     path: "/",
